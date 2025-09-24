@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(212, 37, 37);
+}
+
+.bloco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 75%;
+    width: 45%;
+    border-radius: 15px;
+    box-shadow: 10px 5px 30px rgb(65, 57, 57);
+}
+
+h1{
+    color: rgb(219, 100, 100);
+}
+
+.botao{
+    border-radius: 2px;
+    background-color:rgb(230, 149, 149);
+    border-style: none;
+    height: 25px;
+    color: white;
+}
+
+.dados{
+    border-style: double;
+}
+
+.lista_tarefas{
+    margin-top: 45px;
+    list-style: none;
+    margin-left: -30px;
+}
