@@ -10,15 +10,6 @@ let quantidadesLi = document.getElementsByTagName("li")
 nome.textContent += resultado
 
 
-let array = [
-    {nome: "Robert", idade: 25},
-    {nome: "Henrique", idade: 15}
-]
-
-array.forEach((cada) => {
-    console.log(cada.nome, cada.idade)
-})
-
 botao.addEventListener("click", () => {
     event.preventDefault()
     
@@ -31,4 +22,5 @@ botao.addEventListener("click", () => {
     }
 
     dados.value = ""
+
 })
